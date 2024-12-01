@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|c:\\spt modding\\devspt310\\development\\singletimezone\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|c:\\spt modding\\devspt310\\development\\singletimezone\\patches\\conditionspanelpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|solutionrelative:patches\\conditionspanelpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\patches\\defaulttimezonepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|solutionrelative:patches\\defaulttimezonepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3A3E11-01F0-48A2-A341-6E23E969C0EA}|SingleTimeZone.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Class1.cs",
-              "RelativeDocumentMoniker": "Class1.cs",
-              "ToolTip": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Class1.cs",
-              "RelativeToolTip": "Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DefaultTimeZonePatch.cs",
+              "DocumentMoniker": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Patches\\DefaultTimeZonePatch.cs",
+              "RelativeDocumentMoniker": "Patches\\DefaultTimeZonePatch.cs",
+              "ToolTip": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Patches\\DefaultTimeZonePatch.cs",
+              "RelativeToolTip": "Patches\\DefaultTimeZonePatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:52:17.052Z",
+              "WhenOpened": "2024-12-01T17:55:16.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConditionsPanelPatch.cs",
+              "DocumentMoniker": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Patches\\ConditionsPanelPatch.cs",
+              "RelativeDocumentMoniker": "Patches\\ConditionsPanelPatch.cs",
+              "ToolTip": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Patches\\ConditionsPanelPatch.cs",
+              "RelativeToolTip": "Patches\\ConditionsPanelPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:54:51.422Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "C:\\SPT Modding\\DevSPT310\\Development\\SingleTimeZone\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:52:17.052Z"
             }
           ]
         }
