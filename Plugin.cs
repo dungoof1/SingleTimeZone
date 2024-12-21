@@ -4,7 +4,7 @@ using SingleTimeZone.Patches;
 
 namespace SingleTimeZone
 {
-    [BepInPlugin("dev.dungoof.SingleTimeZone", "SingleTimeZone", "1.0.0")]
+    [BepInPlugin("dev.dungoof.SingleTimeZone", "SingleTimeZone", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         public void Awake()
