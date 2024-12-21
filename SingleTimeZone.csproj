@@ -106,8 +106,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Patches\ConditionsPanelPatch.cs" />
-    <Compile Include="Patches\DefaultTimeZonePatch.cs" />
+    <Compile Include="Helpers\Utils.cs" />
+    <Compile Include="Patches\RaidSettingsPatch.cs" />
+    <Compile Include="Patches\TimePanelPatch.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -11,8 +11,8 @@ namespace SingleTimeZone
         {
             Plugin.LogSource = base.Logger;
             Plugin.LogSource.LogInfo("Single Time Zone enabled.");
-            new ConditionsPanelPatch().Enable();
-            new DefaultTimeZonePatch().Enable();
+            new TimePanelPatch().Enable();
+            new RaidSettingsPatch().Enable();
         }
         public static ManualLogSource LogSource;
     }
