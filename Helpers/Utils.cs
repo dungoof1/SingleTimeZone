@@ -14,10 +14,8 @@ namespace SingleTimeZone.Helpers
 {
     internal class Utils
     {
-        public static bool IsDay(LocationConditionsPanel locationConditionsPanel)
+        public static bool IsDay(DateTime time)
         {
-            DateTime time = locationConditionsPanel.DateTime_2;
-
             if (time.Hour > 5 && time.Hour < 21)
             {
                 return true;
@@ -30,17 +28,23 @@ namespace SingleTimeZone.Helpers
             
         }
 
-        public static bool IsFactory(RaidSettings raidSettings)
+        public static bool IsFactory(string location)
         {
-            if (raidSettings.LocationId == "factory4_day" || raidSettings.LocationId == "factory4_night")
+            if (location == "factory4_day" || location == "factory4_night")
             {
-                Plugin.LogSource.LogInfo("Factory");
                 return true;
             } 
             else
             {
                 return false;
             }
+        }
+
+        public static DateTime GetDateTime()
+        {
+            TarkovApplication.Exist(out TarkovApplication tarkovApplication);
+            DateTime dateTime = tarkovApplication.Session.GetCurrentLocationTime;
+            return dateTime;
         }
     }   
 }

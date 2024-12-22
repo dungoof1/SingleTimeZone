@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -107,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\Utils.cs" />
+    <Compile Include="Patches\LocationInfoPanelPatch.cs" />
     <Compile Include="Patches\RaidSettingsPatch.cs" />
     <Compile Include="Patches\TimePanelPatch.cs" />
     <Compile Include="Plugin.cs" />

@@ -4,7 +4,7 @@ using SingleTimeZone.Patches;
 
 namespace SingleTimeZone
 {
-    [BepInPlugin("dev.dungoof.SingleTimeZone", "SingleTimeZone", "1.1.0")]
+    [BepInPlugin("dev.dungoof.SingleTimeZone", "SingleTimeZone", "1.2.0")]
     public class Plugin : BaseUnityPlugin
     {
         public void Awake()
@@ -13,6 +13,7 @@ namespace SingleTimeZone
             Plugin.LogSource.LogInfo("Single Time Zone enabled.");
             new TimePanelPatch().Enable();
             new RaidSettingsPatch().Enable();
+            new LocationInfoPanelPatch().Enable();
         }
         public static ManualLogSource LogSource;
     }

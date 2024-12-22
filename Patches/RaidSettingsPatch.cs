@@ -5,7 +5,7 @@ using SPT.Reflection.Patching;
 using HarmonyLib;
 using SingleTimeZone.Helpers;
 using JsonType;
-using UnityEngine;
+using System;
 
 namespace SingleTimeZone.Patches
 {
@@ -17,25 +17,22 @@ namespace SingleTimeZone.Patches
         }
 
         [PatchPostfix]
-        public static void Postfix(LocationConditionsPanel __instance, RaidSettings raidSettings)
+        public static void Postfix(LocationConditionsPanel __instance, ref RaidSettings raidSettings)
         {
-            if (Utils.IsFactory(raidSettings))
+            if (Utils.IsFactory(raidSettings.LocationId))
             {
-                if (Utils.IsDay(__instance))
+                if (Utils.IsDay(__instance.DateTime_2))
                 {
-                    // If day, set factory day raid
                     raidSettings.SelectedDateTime = EDateTime.CURR;
                 }
                 else
                 {
-                    // If night, set factory night raid
                     raidSettings.SelectedDateTime = EDateTime.PAST;
                 }
             }
             else
             {
                 raidSettings.SelectedDateTime = EDateTime.CURR;
-                // DateTime_2
             }
         }
     }
